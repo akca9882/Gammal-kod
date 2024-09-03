@@ -1,3 +1,5 @@
+package src;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Path2D;
@@ -18,7 +20,6 @@ public class Bysen extends JPanel {
         }
         final String warning;
     }
-
     static final Random rand = new Random();
 
     final int roomSize = 45;
